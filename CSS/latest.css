@@ -1,0 +1,235 @@
+
+.latest {
+    border-top: 1px solid #ebebeb;
+    margin-bottom: 0;
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.latest .text {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    
+}
+
+.latest h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.latest .chevon-icons i {
+    padding: 12px 16px;
+    font-size: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 100px;
+    background-color: transparent;
+    color: #929292;
+}
+
+.latest .cards {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    flex-wrap: wrap;
+}
+
+.latest .cards li {
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    min-width: 260px;
+    height: 355px;
+    margin-bottom: 80px;
+}
+
+.latest .text {
+    text-align: center;
+}
+
+.latest h3 {
+    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.latest h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 39px;
+    line-height: 1.2;
+    color: #929292;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.latest .product1 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/6-600x800.jpg);
+
+}
+
+.latest .product1:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/6_1-600x800.jpg);
+}
+
+
+.latest .product2 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/7-600x800.jpg);
+}
+
+.latest .product2:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/7_1-600x800.jpg);
+}
+
+.latest .product3 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/3-600x800.jpg);
+}
+
+.latest .product3:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/3_1-600x800.jpg);
+}
+
+.latest .product4 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/4-600x800.jpg);
+}
+
+.latest .product4:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/4_1-600x800.jpg);
+}
+
+.latest .cards li .addcart {
+    background-color: white;
+    color: #000;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 380px;
+    left: 35px;
+    position: absolute;
+    opacity: 0;
+
+}
+
+.latest .cards li {
+    position: relative;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.latest .cards li:hover .addcart {
+    top: 280px;
+    left: 35px;
+    opacity: 1;
+}
+
+.latest .cards li .addcart:hover {
+    background-color: #e33;
+    color: white;
+}
+
+.latest .cards .product-label {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest .product-label .sale {
+    background-color: #e33;
+    color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+
+}
+
+.latest .product-label .new {
+    background-color: #292929;
+    color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+
+
+}
+
+.latest .rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 260px;
+
+}
+
+.latest .product3 .rating {
+    padding-top: 348px;
+}
+
+.latest p {
+    font-weight: 400;
+    line-height: 12px;
+    color: #929292;
+}
+
+.latest .icons {
+    font-size: 13px;
+    color: #F5C60D;
+}
+
+.latest .fa-regular {
+    color: #929292;
+}
+
+.cards .lorem a {
+    color: black;
+}
+
+.cards .price {
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+}
+
+.latest .currentprice {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #e33;
+}
+
+.latest .oldprice {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #929292;
+    text-decoration: line-through;
+}
+
+

@@ -1,0 +1,66 @@
+.banner-2 {
+    padding-top: 200px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.banner-2 i {
+    color: rgb(195, 0, 0);
+}
+
+.banner-2 h3 {
+    font-size: 28px;
+    color: rgb(23, 23, 23);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 16px;
+
+}
+
+.banner-2 p {
+    font-size: 16px;
+    color: rgb(23, 23, 23);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 8px;
+
+}
+
+.banner-2 .sale {
+    padding-top: 60px;
+    padding-left: 20px;
+    gap: 12px;
+    margin: 0;
+}
+
+.banner-2 .decor {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/banner/h1-banner-4.jpg);
+    height: 325px;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+
+
+.banner-2 .lamp {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/banner/h1-banner-5.jpg);
+    height: 325px;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .banner-2 {
+        flex-direction: column;
+    }
+}

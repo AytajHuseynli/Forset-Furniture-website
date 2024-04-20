@@ -1,0 +1,246 @@
+
+.featured {
+    border-top: 1px solid #ebebeb;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+}
+
+.featured .text {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+}
+
+.featured h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.featured .chevon-icons i {
+    padding: 12px 16px;
+    font-size: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 100px;
+    background-color: transparent;
+    color: #929292;
+}
+
+
+.featured .cards {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    padding-top: 24px;
+    flex-wrap: wrap;
+}
+
+.featured .cards li {
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    min-width: 260px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 80px;
+}
+
+
+.featured .text {
+    text-align: center;
+}
+
+.featured h3 {
+    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.featured h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 39px;
+    line-height: 1.2;
+    color: #929292;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.featured .cards li {
+    position: relative;
+}
+
+.featured .product1 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/8-600x800.jpg);
+}
+
+.featured .cards li .addcart {
+    background-color: white;
+    color: #000;
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    top: 380px;
+    left: 35px;
+
+}
+
+.featured .cards li:hover .addcart {
+    top: 280px;
+    left: 35px;
+    opacity: 1;
+}
+
+.featured .cards li .addcart:hover {
+    background-color: #e33;
+    color: white;
+}
+
+.featured .product1:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/8_1-600x800.jpg);
+
+}
+
+
+.featured .product2 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/9-600x800.jpg);
+}
+
+
+.featured .product2:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/9_1-600x800.jpg);
+
+}
+
+.featured .product3 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/10_1-600x800.jpg);
+}
+
+
+.featured .product3:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/10-600x800.jpg);
+
+}
+
+.featured .product4 {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/2-600x800.jpg);
+}
+
+
+.featured .product4:hover {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/product/2_1-600x800.jpg);
+
+}
+
+
+.featured .cards .product-label {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .product-label .sale {
+    background-color: #e33;
+    color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+
+}
+
+.featured .product-label .new {
+    background-color: #292929;
+    color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+
+
+}
+
+.featured .rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 260px;
+
+}
+
+.featured .product3 .rating {
+    padding-top: 348px;
+}
+
+.featured p {
+    font-weight: 400;
+    line-height: 12px;
+    color: #929292;
+}
+
+.featured .icons {
+    font-size: 13px;
+    color: #F5C60D;
+}
+
+.featured .fa-regular {
+    color: #929292;
+}
+
+.cards .lorem a {
+    color: black;
+}
+
+.cards .price {
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+}
+
+.featured .currentprice {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-right: 10px;
+    color: #e33;
+}
+
+.featured .oldprice {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #929292;
+    text-decoration: line-through;
+}
+@media screen and (max-width: 500px) {
+    .featured {
+        flex-direction: column;
+    }
+}

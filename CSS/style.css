@@ -1,0 +1,17 @@
+ul li {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body a {
+    text-decoration: none;
+    color: #929292;
+}

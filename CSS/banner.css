@@ -1,0 +1,67 @@
+.banner {
+    padding: 40px 0;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.banner .banner-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    transition: all 0.5s;
+    height: 250px;
+    padding: 20px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.banner .banner-item:hover {
+    background-size: 120%;
+}
+
+.banner .banner-item.big-sale {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/banner/h1-banner-1.jpg);
+}
+
+.banner .banner-item.decor {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/banner/h1-banner-2.jpg);
+}
+
+.banner .banner-item.lamp {
+    background-image: url(https://htmldemo.net/ginza/ginza/assets/images/banner/h1-banner-3.jpg);
+}
+
+/* .banner .banner-item .sale {
+    padding-top: 60px;
+    padding-left: 20px;
+    gap: 12px;
+    margin: 0;
+} */
+
+.banner .banner-item .sale a:hover {
+    color: #e33;
+}
+
+.banner .banner-item .sale i {
+    color: #e33;
+}
+
+.banner .banner-item .sale h3 {
+    font-size: 28px;
+    color: rgb(23, 23, 23);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.banner .banner-item .sale p {
+    font-size: 16px;
+    color: rgb(23, 23, 23);
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
